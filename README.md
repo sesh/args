@@ -17,6 +17,8 @@ Arguments can be in one of three formats:
 
 The output is a Python dictionary with keys for flags and options, and a `"[]"` key for all other arguments.
 
+Single dash options (`-X`) and duplicate options (`-H "UserAgent: XYZ" -H "Content-type: application/json"`) are explicitly **not supported**. Use argparse or click if you need support for parsing these styles of argument.
+
 
 ## Examples
 

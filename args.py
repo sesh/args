@@ -25,4 +25,3 @@ def parse_args(args):
 if __name__ == "__main__":
     import json
     print(json.dumps(parse_args(sys.argv[1:]), indent=2))
-
